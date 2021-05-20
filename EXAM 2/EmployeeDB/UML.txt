@@ -1,0 +1,38 @@
+UML:
+
+Main:
+All the class calls
+menu switches
+
+Person:
+Has A:
+name 
+address
+phone number
+email
+ID number
+
+Employee:
+Has A:
+Person()
+position
+Date Hired
+Hourly Rate
+
+
+Manager:
+Has A:
+Person()
+Employee()
+Title
+Department
+
+Display:
+displayMenu()
+addMenu()
+editMenu()
+singleMenu()
+allMenu()
+
+PrintIt:
+File export to txt

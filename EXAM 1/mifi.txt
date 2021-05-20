@@ -1,0 +1,4 @@
+total times played:160 quarters: 0
+you won this many times on slot number 1: 1
+you won this many times on slot number 2: 0
+you won this many times on slot number 3: 5
