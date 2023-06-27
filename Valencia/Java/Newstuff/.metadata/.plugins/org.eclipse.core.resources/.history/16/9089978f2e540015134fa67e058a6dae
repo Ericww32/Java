@@ -1,0 +1,28 @@
+import java.util.*;
+public class health {
+
+	  public static void main(String[] args) {
+	    Scanner scanf;
+	    double pounds;
+	    double kg;//kilograms
+	    double inches;
+	    double m;//meters
+	    double result;
+	    
+	    scanf = new Scanner(System.in);
+	    System.out.println("Enter your weight in pounds:");
+	    pounds = scanf.nextInt();
+	    kg = pounds/2.2;
+	    
+	    System.out.println("Enter your height in inches:");
+	    inches = scanf.nextInt();
+	    m = inches;
+	    
+	    // BMI formula ( weight / height * height )
+	    result = ( kg / (m * m));
+	    
+	    System.out.println("Your BMI is " + result );
+	    
+	    scanf.close();
+	  }
+}

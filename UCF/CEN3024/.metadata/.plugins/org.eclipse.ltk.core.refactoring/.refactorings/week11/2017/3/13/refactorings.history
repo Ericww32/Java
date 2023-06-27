@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;cen3024/src/week11&apos;&#x0A;- Original project: &apos;week11&apos;&#x0A;- Destination element: &apos;cen3024/src/week11&apos;&#x0A;- Original elements:&#x0A;     FileProcessingException.java&#x0A;     Week11JUnitTest.java&#x0A;     TestHarness.java&#x0A;- Update references to refactored element" description="Move files" destination="=cen3024/src&lt;week11" element1="FileProcessingException.java" element2="Week11JUnitTest.java" element3="TestHarness.java" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1490895489589" units="0" version="1.0"/>
+</session>

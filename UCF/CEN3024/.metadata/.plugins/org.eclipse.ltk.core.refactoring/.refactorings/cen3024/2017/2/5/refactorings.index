@@ -1,0 +1,17 @@
+1486043799750	Delete elements
+1486043807157	Delete element
+1486047556602	Delete elements
+1486071119622	Rename method 'trace'
+1486149796545	Rename field 'street'
+1486149811900	Rename local variable 'street'
+1486149827272	Rename field 'avenue'
+1486149839618	Rename local variable 'avenue'
+1486149918035	Rename local variable 'integer'
+1486150042345	Rename field 'name'
+1486150062834	Rename field 'location'
+1486150757745	Rename field 'gasStationList'
+1486150840462	Rename local variable 'gasStation'
+1486150932488	Rename local variable 'closestGasStation'
+1486151015506	Rename local variable 'distanceFromCurrentGasStation'
+1486151060352	Rename local variable 'currentGasStation'
+1486151171176	Rename local variable 'distanceFromClosestGasStation'

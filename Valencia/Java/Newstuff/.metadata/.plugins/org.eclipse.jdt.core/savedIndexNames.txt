@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+/Users/Eric/Documents/workspace/Newstuff/.metadata/.plugins/org.eclipse.jdt.core
+2341425526.index

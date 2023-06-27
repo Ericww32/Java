@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;cen3024/src/week10&apos;&#x0A;- Original project: &apos;week10&apos;&#x0A;- Destination element: &apos;cen3024/src/week10&apos;&#x0A;- Original elements:&#x0A;     Week10JUnitTest.java&#x0A;     TestHarness.java&#x0A;- Update references to refactored element" description="Move files" destination="=cen3024/src&lt;week10" element1="Week10JUnitTest.java" element2="TestHarness.java" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1490379668096" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,6 @@
+1490447370672	Rename method 'getStart'
+1490447383878	Rename method 'getEnd'
+1490447505218	Rename method 'getEndTime'
+1490447521213	Rename field 'end'
+1490447794290	Rename method 'elapsed'
+1490447830681	Rename method 'getElapsedTime'

@@ -1,0 +1,12 @@
+Searcher(String stringy){
+    	
+    	Pattern checkRegex = Pattern.compile("[A-Z]{3}\\s[\\d]{4}(\\w)?\\s3\\s[\\d]{1}\\s[4-9]");//did this through trial and error
+		Matcher regexMatcher = checkRegex.matcher(stringy);
+		
+		while(regexMatcher.find()) {
+			if (regexMatcher.group().length() != 0) {
+				System.out.println(regexMatcher.group().trim());
+			}
+		}
+		
+    }

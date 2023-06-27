@@ -1,0 +1,15 @@
+1490492518371	Delete element
+1490492837865	Infer generic type arguments
+1490543900721	Rename method 'getElapsedTime'
+1490545159612	Rename method 'selectionSort'
+1490545283588	Rename local variable 'arr'
+1490553199089	Rename method 'getElapsedTimeMilliSeconds'
+1490553256213	Rename local variable 'as'
+1490563040522	Rename local variable 'as'
+1490563056325	Rename local variable 'sortedArray'
+1490563093286	Rename local variable 'as'
+1490563120500	Rename local variable 'algorithmType'
+1490563216372	Rename local variable 'sw'
+1490563532176	Rename method 'exchange'
+1490915988530	Encapsulate field 'FILENAME'
+1490918110469	Rename local variable 'file'

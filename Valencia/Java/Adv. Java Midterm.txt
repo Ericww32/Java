@@ -1,0 +1,107 @@
+public class Test {
+
+	public static void main(String[] args) {
+		try {
+			Triangle t1 = new Triangle(1, 2, 3);
+			t1.toString();
+			Triangle t2 = new Triangle(1, 4, 3);
+			t2.toString();
+			Triangle t3 = new Triangle(2, -7, 3);
+			t3.toString();
+			Triangle t4 = new Triangle(5, 0, 3);
+			t4.toString();
+			
+		} catch (InvalidTriangleException e) {
+			e.printStackTrace();
+		}
+	}
+
+}
+
+______________________________________________________________________________________________________
+
+
+
+public class InvalidTriangleException extends Exception {
+
+	public InvalidTriangleException(String message){
+		super(message);
+	}
+}
+
+
+______________________________________________________________________________________________________
+
+
+public class Triangle implements Comparable<Triangle> {
+	private int side1;
+	private int side2;
+	private int side3;
+	private int perimiter;
+
+	public int compareTo(Triangle that) {
+		return this.perimiter() - that.perimiter();
+	}
+
+	public boolean equals(Triangle that) {
+		if (this.compareTo(that) == 0) {
+			return true;
+		}
+		return false;
+	}
+
+	public Triangle(int side1, int side2, int side3) throws InvalidTriangleException {
+		this.side1 = side1;
+		this.side2 = side2;
+		this.side3 = side3;
+		this.validate();
+	}
+
+	public void validate() throws InvalidTriangleException {
+		if (side1 < 0 || side2 < 0 || side3 < 0) {
+			throw new InvalidTriangleException("Sides must be greater than zero!" + this);
+		}
+		if (side1 + side2 < side3 || side2 + side3 < side1 || side3 + side1 < side2) {
+			throw new InvalidTriangleException("Sides must be greater than or equal to zero!" + this);
+
+		}
+
+	}
+
+	public int perimiter() {
+		return this.side1 + this.side2 + this.side3;
+	}
+
+	@Override
+	public String toString() {
+		return "Triangle [side1=" + side1 + ", side2=" + side2 + ", side3=" + side3 + ", perimiter=" + perimiter + "]";
+	}
+
+	public int getSide1() {
+		return side1;
+	}
+
+	public void setSide1(int side1) throws InvalidTriangleException {
+		this.side1 = side1;
+		validate();
+	}
+
+	public int getSide2() {
+		return side2;
+	}
+
+	public void setSide2(int side2) throws InvalidTriangleException {
+		this.side2 = side2;
+		validate();
+	}
+
+	public int getSide3() {
+		return side3;
+	}
+
+	public void setSide3(int side3) throws InvalidTriangleException {
+		this.side3 = side3;
+		validate();
+	}
+
+}
